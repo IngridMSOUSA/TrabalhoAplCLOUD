@@ -32,4 +32,13 @@ Instale via Gerenciador de Bibliotecas da Arduino IDE:
 ## 🚀 Como Usar
 
 1. Abra a Arduino IDE.
-2. Selecione a placa
+2. Selecione a placa: **NodeMCU 1.0 (ESP-12E Module)**.
+3. Instale as bibliotecas listadas acima.
+4. Conecte os fios conforme a tabela de conexões.
+5. Faça o upload do código.
+6. Acesse o IP mostrado no monitor serial para ver os dados no navegador.
+
+## 🌐 Exemplo de Interface Web
+
+Após conectar o ESP8266 à sua rede Wi-Fi, ele exibirá um IP no Serial Monitor. Acesse esse IP no navegador para visualizar:
+
