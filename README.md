@@ -10,7 +10,7 @@ Sensor BMP280 (ou BME280)
 
 Protoboard
 
-Jumpers macho-fêmea
+Junpers macho-fêmea
 
 Fonte USB 5V
 
