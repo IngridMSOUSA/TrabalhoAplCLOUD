@@ -1,55 +1,66 @@
-# Projeto: Leitura de Dados Ambientais com BMP280 e NodeMCU ESP8266MOD
+## Projeto: Leitura de Dados Ambientais com BMP280 e NodeMCU ESP8266MOD
 
-Este projeto utiliza o microcontrolador **NodeMCU ESP8266MOD** em conjunto com o sensor **BMP280** (ou BME280) para ler dados de **temperatura, pressão atmosférica e altitude**, com exibição em uma **interface web** acessível via Wi-Fi.
+Este projeto utiliza o microcontrolador NodeMCU ESP8266MOD em conjunto com o sensor BMP280 (ou BME280) para ler dados de temperatura, pressão atmosférica e altitude, com exibição em uma interface web acessível via Wi-Fi.
 
-## 🔧 Componentes Utilizados
+## 🔧 Componentes Utilizados:
 
-- NodeMCU ESP8266MOD
-- Sensor BMP280 (ou BME280)
-- Protoboard
-- Jumpers macho-fêmea
-- Fonte USB 5V
+NodeMCU ESP8266MOD
 
-## 🔌 Conexões (I2C)
+Sensor BMP280 (ou BME280)
 
-| BMP280 Pin | NodeMCU Pin |
-|------------|-------------|
-| VCC        | 3V3         |
-| GND        | GND         |
-| SCL        | D1 (GPIO5)  |
-| SDA        | D2 (GPIO4)  |
+Protoboard
 
-> Certifique-se de que o sensor está configurado para I2C e utilizando o endereço padrão (0x76 ou 0x77).
+Jumpers macho-fêmea
 
-## Integrantes:
+Fonte USB 5V
 
+## 🔌 Conexões (I2C:
 
-DANILO BORGES GONÇALVES DA SILVA
-INGRID MOREIRA SOUSA
-KAUÃ LESSA
-LEONARDO PEREIRA CAMPOS
-YAN AUGUSTO MACHADO NASCIMENTO
+BMP280 Pin	NodeMCU Pin
+VCC	3V3
+GND	GND
+SCL	D1 (GPIO5)
+SDA	D2 (GPIO4)
 
+Certifique-se de que o sensor esteja configurado para I2C e utilizando o endereço padrão 0x76 ou 0x77.
 
+## 👥 Integrantes do Projeto:
 
-## 💻 Bibliotecas Necessárias
+Danilo Borges Gonçalves da Silva
 
+Ingrid Moreira Sousa
+
+Kauã Lessa
+
+Leonardo Pereira Campos
+
+Yan Augusto Machado Nascimento
+
+## 💻 Bibliotecas Necessárias:
 Instale via Gerenciador de Bibliotecas da Arduino IDE:
 
-- `Adafruit BME280`
-- `Adafruit Unified Sensor`
-- `ESP8266WiFi.h`
+Adafruit BME280
 
-## 🚀 Como Usar
+Adafruit Unified Sensor
 
-1. Abra a Arduino IDE.
-2. Selecione a placa: **NodeMCU 1.0 (ESP-12E Module)**.
-3. Instale as bibliotecas listadas acima.
-4. Conecte os fios conforme a tabela de conexões.
-5. Faça o upload do código.
-6. Acesse o IP mostrado no monitor serial para ver os dados no navegador.
+ESP8266WiFi.h
 
-## 🌐 Exemplo de Interface Web
+## 🚀 Como Usar:
 
-Após conectar o ESP8266 à sua rede Wi-Fi, ele exibirá um IP no Serial Monitor. Acesse esse IP no navegador para visualizar:
+Abra a Arduino IDE.
 
+Selecione a placa: NodeMCU 1.0 (ESP-12E Module).
+
+Instale as bibliotecas listadas acima.
+
+Conecte os fios conforme a tabela de conexões.
+
+Faça o upload do código para o NodeMCU.
+
+Acesse o IP mostrado no Monitor Serial para visualizar os dados em um navegador.
+
+## 🌐 Exemplo de Interface Web:
+
+Após conectar o ESP8266 à sua rede Wi-Fi, ele exibirá um endereço IP no Monitor Serial.
+
+Acesse esse IP em qualquer navegador da mesma rede para visualizar os dados coletados em tempo real, como temperatura, pressão e altitude.
