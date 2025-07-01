@@ -21,6 +21,17 @@ Este projeto utiliza o microcontrolador **NodeMCU ESP8266MOD** em conjunto com o
 
 > Certifique-se de que o sensor está configurado para I2C e utilizando o endereço padrão (0x76 ou 0x77).
 
+## Integrantes:
+
+
+DANILO BORGES GONÇALVES DA SILVA
+INGRID MOREIRA SOUSA
+KAUÃ LESSA
+LEONARDO PEREIRA CAMPOS
+YAN AUGUSTO MACHADO NASCIMENTO
+
+
+
 ## 💻 Bibliotecas Necessárias
 
 Instale via Gerenciador de Bibliotecas da Arduino IDE:
